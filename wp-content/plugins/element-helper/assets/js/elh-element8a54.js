@@ -514,8 +514,11 @@
 					navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
 					responsive:{
 						0:{
-							items:4
+							items:5
 						},
+						800:{
+							items:8
+						}
 					}
 				});
 			}
