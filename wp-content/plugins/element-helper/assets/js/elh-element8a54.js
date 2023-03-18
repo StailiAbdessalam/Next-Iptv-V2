@@ -19,11 +19,7 @@
 					responsive:{
 						0:{
 							items:1
-						},
-						1500:{
-							items:2
-						},
-												
+						},											
 					}
 				});
 			}
@@ -502,6 +498,7 @@
 		}; // end
 
 
+
 		var brandSlider = function () {
 
 			if ($('.sponsors-carousel').length) {
@@ -516,14 +513,18 @@
 						0:{
 							items:5
 						},
+						500:{
+							items:7
+						},
 						800:{
-							items:8
+							items:9
 						}
 					}
 				});
 			}
 
-		}; // end
+		};
+
 
 		var testimonialSlider = function () {
 
@@ -968,6 +969,7 @@
 			"frontend/element_ready/brand.default",
 			function ($scope, $) {
 				brandSlider();
+
 			}
 		);
 

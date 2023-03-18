@@ -3363,13 +3363,14 @@
 
 .featured-section .feature-block{
 	position:relative;
-	width:20%;
+	width:100%;
 	padding:0px 15px;
 }
 
 .feature-block{
 	position:relative;
 	margin-bottom:var(--margin-bottom-25);
+	width: 100% !important;
 }
 
 .feature-block .inner-box{
