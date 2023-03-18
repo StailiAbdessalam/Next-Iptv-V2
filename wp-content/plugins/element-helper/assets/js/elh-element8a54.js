@@ -515,7 +515,7 @@
 					margin:0,
 					nav:true,
 					center:true,
-					smartSpeed: 850,
+					smartSpeed: 800,
 					autoplay: 4000,
 					navText: [ '<span class="fa fa-angle-up"></span>', '<span class="fa fa-angle-down"></span>' ],
 					responsive:{
@@ -615,9 +615,9 @@
 			if ($('.three-item-carousel').length) {
 				$('.three-item-carousel').owlCarousel({
 					loop:true,
-					margin:30,
+					margin:0,
 					nav:true,
-					smartSpeed: 1000,
+					smartSpeed: 800,
 					autoplay: 4000,
 					navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
 					responsive:{
