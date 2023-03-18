@@ -13,25 +13,17 @@
 					margin:0,
 					nav:true,
 					//autoHeight: true,
-					smartSpeed: 500,
+					smartSpeed: 3000,
 					autoplay: 6000,
 					navText: [ '<span class="flaticon-left"></span>', '<span class="flaticon-right"></span>' ],
 					responsive:{
 						0:{
 							items:1
 						},
-						600:{
-							items:1
+						1500:{
+							items:2
 						},
-						800:{
-							items:1
-						},
-						1024:{
-							items:1
-						},
-						1200:{
-							items:1
-						}
+												
 					}
 				});
 			}
@@ -45,25 +37,16 @@
 					loop:true,
 					margin:0,
 					nav:true,
-					smartSpeed: 500,
+					smartSpeed: 2000,
 					autoplay: 4000,
 					navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
 					responsive:{
 						0:{
-							items:1
-						},
-						480:{
-							items:2
-						},
-						600:{
-							items:3
-						},
-						800:{
 							items:4
 						},
-						1024:{
-							items:5
-						}
+						1000:{
+							items:2
+						},
 					}
 				});
 			}
@@ -81,7 +64,7 @@
 					margin:0,
 					nav:true,
 					center:true,
-					smartSpeed: 500,
+					smartSpeed: 3000,
 					autoplay: 4000,
 					navText: [ '<span class="fa fa-angle-up"></span>', '<span class="fa fa-angle-down"></span>' ],
 					responsive:{
@@ -120,7 +103,7 @@
 					loop:true,
 					margin:30,
 					nav:true,
-					smartSpeed: 500,
+					smartSpeed: 3000,
 					autoplay: 4000,
 					navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
 					responsive:{
@@ -148,7 +131,7 @@
 					loop: true,
 					margin: 0,
 					nav: true,
-					smartSpeed: 500,
+					smartSpeed: 3000,
 					autoplay: 4000,
 					navText: [
 						'<span class="fa fa-angle-left"></span>',
@@ -184,7 +167,7 @@
 					loop:true,
 					margin:30,
 					nav:true,
-					smartSpeed: 500,
+					smartSpeed: 3000,
 					autoplay: 4000,
 					navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
 					responsive:{
@@ -217,7 +200,7 @@
 					loop:true,
 					margin:30,
 					nav:true,
-					smartSpeed: 500,
+					smartSpeed: 3000,
 					autoplay: 4000,
 					navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
 					responsive:{
@@ -249,12 +232,12 @@
 				var $sync3 = $(".client-testimonial-carousel"),
 					$sync4 = $(".client-thumbs-carousel"),
 					flag = false,
-					duration = 500;
+					duration = 3000;
 
 					$sync3
 						.owlCarousel({
 							loop:true,
-							items: 1,
+							items: 3,
 							margin: 0,
 							nav: true,
 							navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
@@ -506,25 +489,13 @@
 					margin:0,
 					nav:true,
 					//autoHeight: true,
-					smartSpeed: 500,
-					autoplay: 6000,
+					smartSpeed: 3000,
+					autoplay: 400,
 					navText: [ '<span class="flaticon-left"></span>', '<span class="flaticon-right"></span>' ],
 					responsive:{
 						0:{
 							items:1
 						},
-						600:{
-							items:1
-						},
-						800:{
-							items:1
-						},
-						1024:{
-							items:1
-						},
-						1200:{
-							items:1
-						}
 					}
 				});
 			}
@@ -543,20 +514,8 @@
 					navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
 					responsive:{
 						0:{
-							items:1
-						},
-						480:{
-							items:2
-						},
-						600:{
-							items:3
-						},
-						800:{
 							items:4
 						},
-						1024:{
-							items:5
-						}
 					}
 				});
 			}
