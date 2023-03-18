@@ -98,7 +98,7 @@
 		});
 
 		//Menu Toggle Btn
-		$(".mobile-menu .menu-backdrop,.mobile-menu .close-btn").on(
+		$(".mobile-menu .menu-backdrop,.mobile-menu .close-btn, .closet").on(
 			"click",
 			function () {
 				$("body").removeClass("mobile-menu-visible");
